@@ -1,0 +1,136 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-family: PingFang SC, Hiragino Sans GB,
+ Microsoft YaHei, '\5FAE\8F6F\96C5\9ED1', Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* transition: 0.1s; */
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.iconfont {
+  cursor: pointer;
+}
+
+.el-table{
+  font-size: 15px;
+}
+/* 去掉横向滚动条 */
+.el-scrollbar__wrap{overflow-x:hidden}
+
+/* 歌曲表格样式 */
+/* 导航栏 */
+.el-tabs__active-bar  {
+  background-color: #c3473a;
+}
+
+.el-tabs__item:hover
+{  color: #c3473a;}
+
+.el-tabs__item.is-active {
+  color: #c3473a;
+  font-size: 18px;
+}
+
+.el-tabs__item {
+  font-size: 16px;
+}
+
+.el-table th > .cell {
+  font-weight: normal;
+  color: black;
+}
+
+/* 去掉下边框线 */
+.el-table td.el-table__cell, .el-table th.el-table__cell.is-leaf {
+  border-bottom: none;
+}
+
+.el-table .img-wrap {
+  position: relative;
+  width: 70px;
+  height: 70px;
+}
+
+.el-table .img-wrap img {
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+}
+
+.el-table .img-wrap .icon-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  height: 25px;
+  color: #dd6d60;
+  font-size: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.8);
+  opacity: 0;
+}
+.el-table .img-wrap:hover .icon-play{
+  opacity: 1;
+}
+.el-table .img-wrap .icon-play::before {
+  transform: translateX(1px);
+}
+
+.song-table .song-name {
+  color:#1d1d1d;
+}
+
+.song-table .icon-mv {
+  padding-left: 5px;
+  color: #dd6d60;
+}
+
+
+/* 分页器样式 */
+.el-pagination {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: #dd6d60;
+}
+
+#app {
+  height: 100%;
+}
+
+#app .top-container {
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#app .index-container {
+  height: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}

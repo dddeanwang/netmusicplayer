@@ -1,0 +1,32 @@
+{
+  "name": "netmusicplayer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.27.1",
+    "colorthief": "^2.3.2",
+    "core-js": "^3.6.4",
+    "element-ui": "^2.13.0",
+    "good-storage": "^1.1.1",
+    "lodash-es": "^4.17.15",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0",
+    "vue": "^2.6.11",
+    "vue-lazyload": "^1.3.3",
+    "vue-router": "^3.1.6",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
