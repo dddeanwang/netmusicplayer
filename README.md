@@ -29,13 +29,13 @@ https://binaryify.github.io/NeteaseCloudMusicApi/#/
 
 ## 安装与使用
 
-npm install
-npm run serve
+- npm install
+- npm run serve
 
 ### 参考项目
-1.ssh-music
+1. ssh-music
 (https://ssh-music.vercel.app)
 (https://github.com/sl1673495/vue-netease-music)
-2.小陈音乐
+2. 小陈音乐
 (http://duoduozuikeail.top/)
 
