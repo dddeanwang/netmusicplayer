@@ -23,7 +23,7 @@ request.interceptors.response.use(
     error => {
         error && Message({
             type: 'error',
-            message: '网络连接出问题了~',
+            message: '网络连接出问题了',
             showClose: true
         })
     }
